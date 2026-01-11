@@ -1,0 +1,26 @@
+Header Bar: [STELLARPEDIA     Home | About | AstralTrack | Archive | Sandboxes | CosmAI | Account | Stellarpedia X | Contacts&Help     ENG]
+MVP Content:
+ - Home: Main Phrase, Topic about space, Short info about service, our features, stellarpedia x [T]
+ - About: Detailed info about stellarpedia, service history, authors, sponsors [T]
+ - AstralTrack: Short version of the Full AstralTrack, simple program, progress, baked questions and answers, checkboxes/numbers [tI]
+ - Archive: 5-10 Articles about different space-themed topics, working search on artice header (title) [Ti]
+ - Sandboxes: constellations viewer, half-interactive solar system model [I]
+ - CosmAI: Single chat without history (AI LLM API - i want to find any LLM API for free - even the simplest) [I]
+ - Stellarpedia X: Article about subscription, feature list, Empty subscription placeholder [T]
+ - Contacts: Fake contacts placeholder, Empty telegram bot refer [T]
+ = Other: Base account system, simple DB, base SQLI security
+Full Content:
+ - Home: Main Phrase, Topic about space, Short info about service, our features, stellarpedia x [Ti]
+ - About: Detailed info about stellarpedia, service history, authors, sponsors [T]
+ - AstralTrack: Full educational path (like Duolingo or Brilliant) with a complex program and progress, adaprive AI-questions and answers [TI]
+ - Archive: 50-100 Articles about different space-themed topics, working search with filters [title, content, date, lang, length] [Ti]
+ - Sandboxes: blackhole simulator, constellations viewer, interactive solar system model [tI]
+ - CosmAI: Chat list, chats history, ability to continue any chat [I]
+ - Stellarpedia X: Article about subscription, feature list, Monthly/Annual subscription, working payment system [Ti]
+ - Contacts: Full contacts, emails and refer to telegram bot [T]
+ = Other: Complex accounts, large DB, maintained SQL security
+
+TAGS
+T - text tag (only text/ primary content is text data)
+I - interactive tag (user can interact with objects on page)
+CAPS - Major. tag; lowerkey - minor. tag
