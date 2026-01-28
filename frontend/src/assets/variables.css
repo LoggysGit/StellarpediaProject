@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    /* Colors (RGBA) */
+    --color-white: rgba(255, 255, 255, 1.0);
+    --color-black: rgba(0, 0, 0, 1.0);
+
+    --color-yellow: rgba(229, 208, 23, 1.0);
+    --color-amber:  rgba(231, 123, 58, 1.0);
+
+    --color-dusty-blue: rgba(100, 130, 173, 1.0);
+    --color-steel-blue: rgb(135, 165, 195);
+    --color-light-gray: rgba(216, 216, 216, 1.0);
+    --color-soft-white: rgba(235, 235, 235, 1.0);
+
+    --color-deep-ocean:   rgba(30, 40, 70, 1.0);
+    --color-slate-blue:   rgba(112, 140, 150, 1.0);
+    --color-ash-silver:   rgba(210, 210, 205, 1.0);
+    --color-cloud-white:  rgba(244, 244, 230, 1.0);  
+
+    /* RGB Colors (No Alpha) */
+    --rgb-dusty-blue:   100, 130, 173;
+    --rgb-steel-blue:   127, 161, 195;
+    --rgb-light-gray:   216, 216, 216;
+    --rgb-soft-white:   235, 235, 235;   
+
+    --rgb-deep-ocean:   30, 40, 70;
+    --rgb-slate-blue:   112, 140, 150;
+    --rgb-ash-silver:   210, 210, 205;
+    --rgb-cloud-white:  244, 244, 230;
+
+    /* Alpha Values */
+    --alpha-light:  0.2;
+    --alpha-mid:    0.4;
+    --alpha-semi:   0.6;
+    --alpha-strong: 0.8;
+
+    /* Font sizes */
+    --font-size-xs:     12px;
+    --font-size-sm:     16px;
+    --font-size-base:   24px;
+    --font-size-lg:     32px;
+    --font-size-xl:     48px;
+    --font-size-2xl:    64px;
+    --font-size-4xl:    72px;
+    --font-size-8xl:    98px;
+
+    /* Font Weights */
+    --font-weight-light:    300;
+    --font-weight-mid:      400;
+    --font-weight-bold:     700;
+
+    /* Borders */
+    --border-width-thin: 8px;
+    --border-width-norm: 12px;
+    --border-width-bold: 16px;
+
+    --border-radius-sm: 8px;
+    --border-radius-lg: 16px;
+    --border-radius-rd: 99px;
+
+    /* Paddings & Proportions */
+    --size-2:  2px;
+    --size-4:  4px;
+    --size-6:  6px;
+    --size-8:  8px;
+    --size-10: 10px;
+    --size-12: 12px;
+    --size-16: 16px;
+    --size-20: 20px;
+    --size-24: 24px;
+    --size-28: 28px;
+    --size-32: 32px;
+    --size-36: 36px;
+    --size-40: 40px;
+    --size-42: 42px;
+    --size-46: 46px;
+    --size-48: 48px;
+    --size-52: 52px;
+    --size-54: 54px;
+    --size-56: 56px;
+    --size-60: 60px;
+    --size-64: 64px;
+    --size-68: 68px;
+    --size-72: 72px;
+    --size-76: 76px;
+    --size-80: 80px;
+    --size-84: 84px;
+    --size-88: 88px;
+    --size-92: 92px;
+    --size-96: 96px;
+    --size-98: 98px;
+}
+
+html{
+    --color-primary: var(--color-dusty-blue);
+    --color-secondary: var(--color-steel-blue);
+    --color-foreground: var(--color-soft-white);
+    --color-background: var(--color-light-gray);
+
+    --color-text-primary-dark: var(--color-dusty-blue);
+    --color-text-primaty-light: var(--color-soft-white);
+    --color-text-secondary-light: var(--color-steel-blue);
+
+    --accent-gradient: linear-gradient(45deg, 
+    var(--color-yellow) 0%, 
+    var(--color-amber) 100%
+    );
+
+    --color-primary-button: var();
+    --color-primary-button-hover: var();
+    --color-secondary-button: var();
+    --color-secondary-button-hover: var();
+
+    --shadow-blurred: 0 20px 40px rgba(var(--color-black), 0.08), 0 1px 4px rgba(var(--color-black), 0.04);
+    --shadow-normal: 0 4px 12px rgba(var(--color-black), 0.12);
+}
+html.dark{
+
+}
