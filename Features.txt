@@ -2,7 +2,7 @@ Header Bar: [STELLARPEDIA     Home | About | AstralTrack | Archive | Sandboxes |
 MVP Content:
  - Home: Main Phrase, Topic about space, Short info about service, our features, stellarpedia x [T]
  - About: Detailed info about stellarpedia, service history, authors, sponsors [T]
- - AstralTrack: Short version of the Full AstralTrack, simple program, progress, baked questions and answers, checkboxes/numbers [tI]
+ - AstralTrack: None ###Short version of the Full AstralTrack, simple program, progress, baked questions and answers, checkboxes/numbers [tI]
  - Archive: 5-10 Articles about different space-themed topics, working search on artice header (title) [Ti]
  - Sandboxes: constellations viewer, half-interactive solar system model [I]
  - CosmAI: Single chat without history (AI LLM API - i want to find any LLM API for free - even the simplest) [I]
