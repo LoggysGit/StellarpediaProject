@@ -1,7 +1,6 @@
 #content-holder{
-    -height: 500px;
-    overflow: 'hidden';
-    position: 'relative';
+    overflow: hidden;
+    position: relative;
 
     padding: var(--size-12) auto;
 
