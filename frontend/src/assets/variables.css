@@ -106,10 +106,12 @@ html{
     var(--color-yellow) 0%, 
     var(--color-amber) 100%
     );
+    
+    --background: "../public/spacebg-light.png";
 
     --color-primary-button: var();
     --color-primary-button-hover: var();
-    --color-secondary-button: var();
+    --color-secondary-button: var(--color-soft-white);
     --color-secondary-button-hover: var();
 
     --shadow-blurred: 0 20px 40px rgba(var(--color-black), 0.08), 0 1px 4px rgba(var(--color-black), 0.04);

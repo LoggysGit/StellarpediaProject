@@ -1,6 +1,6 @@
 // === Dependences ===
 import { useState } from 'react'
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router';
 // === Pages ===
 import WelcomePage from './pages/WelcomePage'
 import AboutUs from './pages/AboutUs'
