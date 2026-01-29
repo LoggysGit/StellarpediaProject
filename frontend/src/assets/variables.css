@@ -2,8 +2,6 @@
 
 :root{
     /* Colors (RGBA) */
-    --color-white: rgba(255, 255, 255, 1.0);
-    --color-black: rgba(0, 0, 0, 1.0);
 
     --color-yellow: rgba(229, 208, 23, 1.0);
     --color-amber:  rgba(231, 123, 58, 1.0);
@@ -19,6 +17,9 @@
     --color-cloud-white:  rgba(244, 244, 230, 1.0);  
 
     /* RGB Colors (No Alpha) */
+    --color-white: 255, 255, 255;
+    --color-black: 0, 0, 0;
+
     --rgb-dusty-blue:   100, 130, 173;
     --rgb-steel-blue:   127, 161, 195;
     --rgb-light-gray:   216, 216, 216;
@@ -28,6 +29,11 @@
     --rgb-slate-blue:   112, 140, 150;
     --rgb-ash-silver:   210, 210, 205;
     --rgb-cloud-white:  244, 244, 230;
+
+    --accent-gradient: linear-gradient(45deg, 
+    var(--color-yellow) 0%, 
+    var(--color-amber) 100%
+    );
 
     /* Alpha Values */
     --alpha-light:  0.2;
@@ -90,6 +96,15 @@
     --size-92: 92px;
     --size-96: 96px;
     --size-98: 98px;
+    --size-100: 100px;
+    --size-120: 120px;
+
+    --percent-5: 5%;
+    --percent-10: 10%;
+    
+    --percent-100: 100%;
+    --percent-200: 200%;
+    --percent-300: 300%;
 }
 
 html{
@@ -100,23 +115,27 @@ html{
 
     --color-text-primary-dark: var(--color-dusty-blue);
     --color-text-primaty-light: var(--color-soft-white);
-    --color-text-secondary-light: var(--color-steel-blue);
+    --color-text-secondary: var(--color-steel-blue);
 
-    --accent-gradient: linear-gradient(45deg, 
-    var(--color-yellow) 0%, 
-    var(--color-amber) 100%
-    );
-    
-    --background: "../public/spacebg-light.png";
+    --background-image: url('/light-bg.jpg');
 
     --color-primary-button: var();
     --color-primary-button-hover: var();
     --color-secondary-button: var(--color-soft-white);
     --color-secondary-button-hover: var();
 
-    --shadow-blurred: 0 20px 40px rgba(var(--color-black), 0.08), 0 1px 4px rgba(var(--color-black), 0.04);
-    --shadow-normal: 0 4px 12px rgba(var(--color-black), 0.12);
+    --shadow-blurred: 0 var(--size-16) var(--size-20) rgba(var(--color-black), 0.1);
+    --shadow-normal: 0 var(--size-4) var(--size-12) rgba(var(--color-black), 0.12);
 }
 html.dark{
+    --color-primary: var(--color-cloud-white);
+    --color-secondary: var(--color-ash-silver);
+    --color-foreground: var(--color-slate-blue);
+    --color-background: var(--color-deep-ocean);
 
+    --color-text-primary-dark: var(--color-cloud-white);
+    --color-text-primaty-light: var(--color-ash-silver);
+    --color-text-secondary-light: var(--color-slate-blue);
+
+    --background-image: url('/dark-bg.jpg');
 }

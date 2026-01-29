@@ -10,7 +10,6 @@ function Archive() {
     <div>
         <Header/>
         <div id="main-container">
-            <h1>wp</h1>
         </div>
     </div>
   );

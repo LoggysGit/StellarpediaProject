@@ -1,0 +1,23 @@
+#content-holder{
+    -height: 500px;
+    overflow: 'hidden';
+    position: 'relative';
+
+    padding: var(--size-12) auto;
+
+    box-shadow: var(--shadow-blurred) !important;
+}
+#back{
+    background-image: var(--background-image);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+#content{
+    display: flex;
+    align-items: center; justify-content: center;
+    height: 100%;
+    color: var(--color-text-primaty-light);
+}

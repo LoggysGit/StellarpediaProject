@@ -2,14 +2,46 @@ header{
     display: flex;
     align-items: center; justify-content: center;
 
+    width: 100%;
+    margin: 0;
+
+    -padding: var(--size-12) 0; 
+
     background-color: var(--color-foreground);
 
     box-shadow: var(--shadow-blurred);
-}
 
+    height: var(--size-60);
+    
+    overflow: hidden;
+}
+nav {
+    display: flex;
+    align-items: center; justify-content: center;
+}
 .header-refer{
-    padding: var(--size-16) var(--size-12);
+    text-decoration: none;
+    color: var(--color-text-primary-dark);
+
+    padding: var(--size-32) var(--size-16);
+    display: flex;
+    align-items: center;
+
+    white-space: normal;
+    word-break: keep-all;
+    text-align: center;
+
+    margin: 0;
 }
 .header-refer:hover{
     background-color: var(--color-background);
+}
+
+#logo{
+    width: var(--size-120);
+    margin: 0 var(--size-16);
+}
+
+#header-actions{
+
 }
