@@ -4,7 +4,7 @@
 
     padding: var(--size-12) auto;
 
-    box-shadow: var(--shadow-blurred) !important;
+    box-shadow: var(--shadow-blurred);
 }
 #back{
     background-image: var(--background-image);
@@ -18,5 +18,5 @@
     display: flex;
     align-items: center; justify-content: center;
     height: 100%;
-    color: var(--color-text-primaty-light);
+    color: var(--color-text-primary-light);
 }
