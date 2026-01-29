@@ -9,19 +9,19 @@ function Header() {
       <header>
         <img src="" alt="Logo"/>
         <div>
-          <a>Welcome Page</a>
-          <a>About Us</a>
-          <a>Archive</a>
-          <a>Astral Path</a>
-          <a>Interacts</a>
-          <a>CosmAI</a>
-          <a>Subscription</a>
-          <a>Contacts& Support</a>
+          <a className='header-refer'>Welcome Page</a>
+          <a className='header-refer'>About Us</a>
+          <a className='header-refer'>Archive</a>
+          <a className='header-refer'>Astral Path</a>
+          <a className='header-refer'>Interacts</a>
+          <a className='header-refer'>CosmAI</a>
+          <a className='header-refer'>Subscription</a>
+          <a className='header-refer'>Contacts& Support</a>
         </div>
         <div>
             <div>
                 <button><img src="" alt="Theme"/></button>
-                <button></button>
+                <button>ENG</button>
             </div>
             <button><img src="" alt="Profile"/></button>
         </div>
