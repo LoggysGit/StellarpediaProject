@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { Link } from 'react-router';
+
 import '../assets/variables.css'
 import './styles/Header.css'
 
@@ -25,16 +27,16 @@ function Header() {
 
   return (
     <header>
-      <img src="/StellarpediaLogoCURVE.svg" id='logo' alt="Logo"/>
+      <Link to='/'><img src="/StellarpediaLogoCURVE.svg" id='logo' alt="Logo"/></Link>
       <nav>
-        <a className='header-refer' href="#">Welcome Page</a>
-        <a className='header-refer' href="#">About Us</a>
-        <a className='header-refer' href="#">Archive</a>
-        <a className='header-refer' href="#">Astral Path</a>
-        <a className='header-refer' href="#">Interacts</a>
-        <a className='header-refer' href="#">CosmAI</a>
-        <a className='header-refer' href="#">Subscription</a>
-        <a className='header-refer' href="#">Contacts& Support</a>
+        <Link to="/"><a className='header-refer'>Welcome Page</a></Link>
+        <Link to="/about"><a className='header-refer'>About Us</a></Link>
+        <Link to="/archive"><a className='header-refer'>Archive</a></Link>
+        <Link to="/"><a className='header-refer'>Astral Path</a></Link>
+        <Link to="/"><a className='header-refer'>Interacts</a></Link>
+        <Link to="/"><a className='header-refer'>CosmAI</a></Link>
+        <Link to="/"><a className='header-refer'>Subscription</a></Link>
+        <Link to="/"><a className='header-refer'>Contacts& Support</a></Link>
       </nav>
       <div className="header-actions">
           <div className="controls">

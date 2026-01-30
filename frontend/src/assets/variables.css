@@ -44,8 +44,10 @@
     /* Font sizes */
     --font-size-xs:     12px;
     --font-size-sm:     16px;
+    --font-size-ls:     18px;
     --font-size-base:   24px;
     --font-size-lg:     32px;
+    --font-size-2lg:    36px;
     --font-size-xl:     48px;
     --font-size-2xl:    64px;
     --font-size-4xl:    72px;
@@ -53,8 +55,9 @@
 
     /* Font Weights */
     --font-weight-light:    300;
-    --font-weight-mid:      400;
+    --font-weight-mid:      500;
     --font-weight-bold:     700;
+    --font-weight-xb:       1000;
 
     /* Borders */
     --border-width-thin: 8px;
@@ -98,10 +101,18 @@
     --size-98: 98px;
     --size-100: 100px;
     --size-120: 120px;
+    --size-200: 200px;
 
     --percent-5: 5%;
     --percent-10: 10%;
-    
+    --percent-20: 20%;
+    --percent-30: 30%;
+    --percent-40: 40%;
+    --percent-50: 50%;
+    --percent-60: 60%;
+    --percent-70: 70%;
+    --percent-80: 80%;
+    --percent-90: 90%;
     --percent-100: 100%;
     --percent-200: 200%;
     --percent-300: 300%;
@@ -124,8 +135,8 @@ html{
     --color-secondary-button: var(--color-soft-white);
     --color-secondary-button-hover: var();
 
-    --shadow-blurred: 0 var(--size-16) var(--size-20) rgba(var(--color-black), 0.1);
-    --shadow-normal: 0 var(--size-4) var(--size-12) rgba(var(--color-black), 0.12);
+    --shadow-blurred: 0 var(--size-16) var(--size-20) rgba(var(--color-black), 0.2);
+    --shadow-normal: 0 var(--size-4) var(--size-8) rgba(var(--color-black), 0.4);
 }
 html.dark{
     --color-primary: var(--color-cloud-white);

@@ -2,3 +2,22 @@ body{
     background-color: var(--color-background) !important;
     margin: 0;
 }
+
+#motto{
+    font-weight: var(--font-weight-xb);
+    font-size: var(--font-size-xl);
+
+    color: var(--color-foreground);
+
+    margin: var(--size-72) auto;
+
+    text-shadow: var(--shadow-normal);
+
+}
+
+#intro{
+    padding: var(--size-36) var(--size-64);
+}
+.qa-box{
+    margin: var(--size-36) var(--size-4);
+}
